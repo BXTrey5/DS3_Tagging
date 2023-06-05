@@ -48,32 +48,32 @@
   </thead>
   <tbody>
     <tr>
-      <td>Overall</td>
+      <td><strong>Overall</strong></td>
       <td>__</td>
       <td>__</td>
     </tr>
     <tr>
-      <td>No Code</td>
+      <td><strong>No Code</strong></td>
       <td>__</td>
       <td>__</td>
     </tr>
     <tr>
-      <td>Has Code</td>
+      <td><strong>Has Code</strong></td>
       <td>40</td>
       <td>6</td>
     </tr>
     <tr>
-      <td>High Quality</td>
+      <td><strong>High Quality</strong></td>
       <td>120</td>
       <td>7</td>
     </tr>
     <tr>
-      <td>Low Quality Closed</td>
+      <td><strong>Low Quality Closed</strong></td>
       <td>90</td>
       <td>17</td>
     </tr>
     <tr>
-      <td>Low Quality Edited</td>
+      <td><strong>Low Quality Edited</strong></td>
       <td>90</td>
       <td>17</td>
     </tr>
