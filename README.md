@@ -20,13 +20,13 @@
   <li><strong><code>Body</code>:</strong> The main portion of the post that contains the question and/or problem, sometimes including code snippets, error messages, and or expected behaviors</li>
   <li><strong><code>Tags</code>:</strong> Labels to categorize posts by topics, programming languages, or ideas</li>
   <li><strong><code>CreationDate</code>:</strong> The date and timestamp of when the post was created</li>
-  <li><strong><code>Y</code>:</strong> one of three categories - HQ, high-quality posts that have not been edited, LQ_EDIT, low-quality open posts that have a negative score and have been edited, LQ_CLOSED, low-quality closed posts that have not been edited</li>
+  <li><strong><code>Y</code>:</strong> one of three categories - <code>HQ</code>, high-quality posts that have not been edited, <code>LQ_EDIT</code>, low-quality open posts that have a negative score and have been edited, <code>LQ_CLOSED</code>, low-quality closed posts that have not been edited</li>
 </ul>
 
 <h2><strong>Data Cleaning</strong></h2>
 <p>Techniques used to clean the <code>Title</code> and <code>Body</code> columns of the dataset:</p>
 <ul>
-  <li>Extracted code into a separate column</li>
+  <li>Extracted code into a separate column labeled <code>Code</code></li>
   <li>Removed other HTML tags</li>
   <li>Removed any unnecessary whitespace</li>
   <li>Removed punctuation from all text</li>
