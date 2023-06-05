@@ -24,7 +24,7 @@
 </ul>
 
 <h2><strong>Data Cleaning</strong></h2>
-<p>Techniques used to clean the Body column of the dataset:</p>
+<p>Techniques used to clean the <code>Title</code> and <code>Body</code> columns of the dataset:</p>
 <ul>
   <li>Extracted code into a separate column</li>
   <li>Removed other HTML tags</li>
@@ -33,7 +33,7 @@
   <li>Made every letter lowercase</li>
   <li>Removed any stopwords that are common throughout all documents</li>
 </ul>
-<p>The Tags column was also converted from a string to a list of tags.</p>
+<p>The cleaned columns were assigned to new columns labeled <code>Title_processed</code> and <code>Body_processed</code>, respectively. The <code>Tags</code> column was also converted from a string to a list of tags.</p>
 
 <h2><strong>Method</strong></h2>
 
