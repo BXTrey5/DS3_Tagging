@@ -41,7 +41,7 @@
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: left;">
-      <th>Subset</th>
+      <th>DataFrame</th>
       <th>Training Accuracy</th>
       <th>Testing Accuracy</th>
     </tr>
@@ -118,7 +118,7 @@
 
 	 	/*width:60%;
 	 	overflow: hidden;*/
-/*    	white-space:nowrap;*/
+/*    	white-space: nowrap;*/
 	  }
     #creators{
       color: black;
