@@ -59,23 +59,23 @@
     </tr>
     <tr>
       <td><strong>Has Code</strong></td>
-      <td>40</td>
-      <td>6</td>
+      <td>__</td>
+      <td>__</td>
     </tr>
     <tr>
       <td><strong>High Quality</strong></td>
-      <td>120</td>
-      <td>7</td>
+      <td>__</td>
+      <td>__</td>
     </tr>
     <tr>
       <td><strong>Low Quality Closed</strong></td>
-      <td>90</td>
-      <td>17</td>
+      <td>__</td>
+      <td>__</td>
     </tr>
     <tr>
       <td><strong>Low Quality Edited</strong></td>
-      <td>90</td>
-      <td>17</td>
+      <td>__</td>
+      <td>__</td>
     </tr>
   </tbody>
 </table>
@@ -95,7 +95,7 @@
 	table{ 
 		table-layout: fixed; 
 		border-collapse: collapse;
-		width: 150%;
+		width: 100%;
         margin-right:60%;
         overflow: scroll;
 		/*width: 100; 
