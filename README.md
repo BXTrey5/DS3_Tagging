@@ -15,8 +15,8 @@
 <h2><strong>Dataset</strong></h2>
 <p>The dataset we are using contains 60,000 rows of Stack Overflow posts which include:</p>
 <ul>
-  <li><strong><code>Id:</code></strong> A unique integer to identify each post</li>
-  <li><strong><code>Title:</code></strong> Typically contains a concise summary of the post</li>
+  <li><strong><code>Id</code>;</strong> A unique integer to identify each post</li>
+  <li><strong><code>Title</code>:</strong> Typically contains a concise summary of the post</li>
   <li><strong><code>Body:</code></strong> The main portion of the post that contains the question and/or problem, sometimes including code snippets, error messages, and or expected behaviors</li>
   <li><strong><code>Tags:</code></strong> Labels to categorize posts by topics, programming languages, or ideas</li>
   <li><strong><code>CreationDate:</code></strong> The date and timestamp of when the post was created</li>
