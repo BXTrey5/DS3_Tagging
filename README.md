@@ -1,11 +1,14 @@
-# Stack-Exchange-Tagging
+# Stack-Overflow-Tagging
+<h1>Automated Tagging of Stack Overflow Questions With Partially Labeled Dirichlet Allocation</h1>
+<h4 id="creators">By: Benjamin Xue, Ripudh Mylapur, Siddharth Vyasabattu, & Nicole Reardon</h4>
+<h5><em> The dataset that was used for this project can be found here: <a href = "https://www.kaggle.com/datasets/imoore/60k-stack-overflow-questions-with-quality-rate">kaggle.com</a></em></h5>
 
 <h2>Introduction</h2>
 
 <p>Stack Overflow is an exchange forum where individuals can ask and answer programming-related questions. All of the posts are labeled by users with one or more tags that indicate the topic of the post and its relevance to certain programming languages and/or ideas. We would like to use the text to assign a tag to the Stack Overflow posts that fit each one the best.</p>
 
 <h2>Question</h2>
-<h4>Can we automatically determine which tag fits the post best given the text of the post?</h4>
+<h4><strong>Can we automatically determine which tag fits the post best given the text of the post?</strong></h4>
 
 <h2>Exploratory Data Analysis</h2>
 
