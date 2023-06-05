@@ -15,29 +15,32 @@
 <h2>Dataset</h2>
 <p>The dataset we are using contains 60,000 rows of Stack Overflow posts which include:</p>
 <ul>
-<li><strong>Id:</strong> A unique integer to identify each post</li>
-<li><strong>Title:</strong> Typically contains a concise summary of the post</li>
-<li><strong>Body:</strong> The main portion of the post that contains the question and/or problem, sometimes including code snippets, error messages, and or expected behaviors</li>
-<li><strong>Tags:</strong> Labels to categorize posts by topics, programming languages, or ideas</li>
-<li><strong>CreationDate:</strong> The date and timestamp of when the post was created</li>
-<li><strong>Y:</strong> one of three categories - HQ, high-quality posts that have not been edited, LQ_EDIT, low-quality open posts that have a negative score and have been edited, LQ_CLOSED, low-quality closed posts that have not been edited</li>
+  <li><strong>Id:</strong> A unique integer to identify each post</li>
+  <li><strong>Title:</strong> Typically contains a concise summary of the post</li>
+  <li><strong>Body:</strong> The main portion of the post that contains the question and/or problem, sometimes including code snippets, error messages, and or expected behaviors</li>
+  <li><strong>Tags:</strong> Labels to categorize posts by topics, programming languages, or ideas</li>
+  <li><strong>CreationDate:</strong> The date and timestamp of when the post was created</li>
+  <li><strong>Y:</strong> one of three categories - HQ, high-quality posts that have not been edited, LQ_EDIT, low-quality open posts that have a negative score and have been edited, LQ_CLOSED, low-quality closed posts that have not been edited</li>
 </ul>
 
 <h2>Data Cleaning</h2>
 <p>Techniques used to clean the Body column of the dataset:</p>
-<li>Extracted code into a separate column</li>
-<li>Removed other HTML tags</li>
-<li>Removed any unnecessary whitespace</li>
-<li>Removed punctuation from all text</li>
-<li>Made every letter lowercase</li>
-<li>Removed any stopwords that are common throughout all documents</li>
+<ul>
+  <li>Extracted code into a separate column</li>
+  <li>Removed other HTML tags</li>
+  <li>Removed any unnecessary whitespace</li>
+  <li>Removed punctuation from all text</li>
+  <li>Made every letter lowercase</li>
+  <li>Removed any stopwords that are common throughout all documents</li>
+</ul>
 <p>The Tags column was also converted from a string to a list of tags.</p>
 
+<h2>Method</h2>
 
-
+<h2>Results</h2>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th>Subset</th>
       <th>Training Accuracy</th>
       <th>Testing Accuracy</th>
@@ -76,3 +79,67 @@
     </tr>
   </tbody>
 </table>
+
+<h2>Findings</h2>
+
+<h2>Future Work</h2>
+
+<h3>References</h3>
+<ul>
+<li>Ramage, D., Manning, C. D., & Dumais, S. (2011, August). Partially labeled topic models for interpretable text mining. In Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 457-465). ACM.</li>
+<li>Kapadia, Shashank. “Topic Modeling in Python: Latent Dirichlet Allocation (LDA).” Medium, 23 Dec. 2022.</li>
+<li>Ramage, Daniel, et al. “Labeled Lda.” Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing Volume 1 - EMNLP ’09, 2009.</li>
+</ul>
+
+<style> 
+	table{ 
+		table-layout: fixed; 
+		border-collapse: collapse;
+		width: 150%;
+        margin-right:60%;
+        overflow: scroll;
+		/*width: 100; 
+		height:350px;*/ 
+	 }
+	 th{
+	 	width:150%;
+	 	overflow: auto;
+  	white-space: nowrap;
+	 }
+     /* tr{
+         page-break-inside: avoid;
+     } */
+
+	 td{ 
+	 	overflow: auto;
+	 	white-space: nowrap;
+    word-wrap: break-word;
+	 	width: 200%;
+
+	 	/*width:60%;
+	 	overflow: hidden;*/
+/*    	white-space:nowrap;*/
+	  }
+	  body{
+	  	font-family: Helvetica, Sans-Serif;
+
+	  }
+    h1{
+      font-family: Helvetica, Sans-Serif;
+      color:#4B7A5C;
+     }
+    h4{
+      color:#699A7B;
+
+    }
+    #creators{
+      color: black;
+    }
+
+	sup {
+	        vertical-align: super;
+	        font-size: small;
+	    }
+
+
+</style>
