@@ -1,5 +1,5 @@
 # Automated Tagging of Stack Overflow Questions With Partially Labeled Dirichlet Allocation
-<h4 id="creators">By: Benjamin Xue, Ripudh Mylapur, Siddharth Vyasabattu, & Nicole Reardon</h4>
+<h4 id="creators">By: Benjamin Xue, Ripudh Mylapur, Siddharth Vyasabattu, and Nicole Reardon</h4>
 <h5><em> The dataset that was used for this project can be found here: <a href = "https://www.kaggle.com/datasets/imoore/60k-stack-overflow-questions-with-quality-rate">kaggle.com</a></em></h5>
 
 <h2><strong>Introduction</strong></h2>
@@ -54,8 +54,8 @@
     </tr>
     <tr>
       <td>No Code</td>
-      <td>45</td>
-      <td>12</td>
+      <td>__</td>
+      <td>__</td>
     </tr>
     <tr>
       <td>Has Code</td>
