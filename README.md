@@ -1,5 +1,4 @@
-# Stack-Overflow-Tagging
-<h1>Automated Tagging of Stack Overflow Questions With Partially Labeled Dirichlet Allocation</h1>
+# Automated Tagging of Stack Overflow Questions With Partially Labeled Dirichlet Allocation
 <h4 id="creators">By: Benjamin Xue, Ripudh Mylapur, Siddharth Vyasabattu, & Nicole Reardon</h4>
 <h5><em> The dataset that was used for this project can be found here: <a href = "https://www.kaggle.com/datasets/imoore/60k-stack-overflow-questions-with-quality-rate">kaggle.com</a></em></h5>
 
@@ -33,3 +32,47 @@
 <li>Made every letter lowercase</li>
 <li>Removed any stopwords that are common throughout all documents</li>
 <p>The Tags column was also converted from a string to a list of tags.</p>
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Subset</th>
+      <th>Training Accuracy</th>
+      <th>Testing Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overall</td>
+      <td>__</td>
+      <td>__</td>
+    </tr>
+    <tr>
+      <td>No Code</td>
+      <td>45</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>Has Code</td>
+      <td>40</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>High Quality</td>
+      <td>120</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Low Quality Closed</td>
+      <td>90</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>Low Quality Edited</td>
+      <td>90</td>
+      <td>17</td>
+    </tr>
+  </tbody>
+</table>
