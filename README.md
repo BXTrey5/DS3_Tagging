@@ -51,28 +51,28 @@
   <tbody>
     <tr>
       <td><strong>Overall</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>__%</td>
+      <td>__%</td>
     </tr>
     <tr>
       <td><strong>No Code</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>082.85%</td>
+      <td>41.80%</td>
     </tr>
     <tr>
       <td><strong>Has Code</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>87.60%</td>
+      <td>45.75%</td>
     </tr>
     <tr>
       <td><strong>High Quality</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>86.11%</td>
+      <td>36.70%</td>
     </tr>
     <tr>
       <td><strong>Low Quality Closed</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>87.94%</td>
+      <td>46.10%</td>
     </tr>
     <tr>
       <td><strong>Low Quality Edited</strong></td>
