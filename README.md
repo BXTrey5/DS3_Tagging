@@ -56,7 +56,7 @@
     </tr>
     <tr>
       <td><strong>No Code</strong></td>
-      <td>082.85%</td>
+      <td>82.85%</td>
       <td>41.80%</td>
     </tr>
     <tr>
