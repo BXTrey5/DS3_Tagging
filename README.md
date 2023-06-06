@@ -50,7 +50,9 @@
   <li>Labeled as low-quality edited(<code>LQ_EDIT</code>)</li>
 </ul>
 <p>On 10 epochs, the log-likelihood was computed as a measure of the model's effectiveness. We tested the model on 2,000 remaining data points that were not used in the training set and measured the accuracy of both the validation set and the training set.</p>
+
 <h2><strong>Results</strong></h2>
+<p>When making predictions, we took the single tag with the highest probability associated with the post. When testing on a test set of 1500 data points, we achieved an accuracy of 0.45, compared to a 0.86 accuracy on a training set when the model was trained on the dataset as a whole. The following accuracies are obtained from training the model on subsections of the data:</p>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: left;">
@@ -92,9 +94,10 @@
     </tr>
   </tbody>
 </table>
+<p>When looking at the subset accuracy of specific tags, we see that more common tags tend to have higher accuracies. For example, the most common tag in the testing set, python, has an accuracy of 0.71, while less common tags, such as R, have an accuracy of 0.51.</p>
 
 <h2><strong>Findings</strong></h2>
-
+<p>We found that PLDA is a model that worked well for our dataset because we can make use of labels to guide the algorithm to find topics that fit each text the best. Despite this, the PLDA model might be prone to overfitting when dealing with tags that don’t commonly appear in the training set.</p>
 <h2><strong>Future Work</strong></h2>
 
 <h3>References</h3>
