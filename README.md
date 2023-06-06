@@ -22,7 +22,7 @@
   <li><strong><code>Body</code>:</strong> The main portion of the post that contains the question and/or problem, sometimes including code snippets, error messages, and or expected behaviors</li>
   <li><strong><code>Tags</code>:</strong> Labels to categorize posts by topics, programming languages, or ideas</li>
   <li><strong><code>CreationDate</code>:</strong> The date and timestamp of when the post was created</li>
-  <li><strong><code>Y</code>:</strong> one of three categories - <code>HQ</code>, high-quality posts that have not been edited, <code>LQ_EDIT</code>, low-quality open posts that have a negative score and have been edited, <code>LQ_CLOSED</code>, low-quality closed posts that have not been edited</li>
+  <li><strong><code>Y</code>:</strong> one of three categories - <code>HQ</code>, high-quality posts that have not been edited, <code>LQ_EDIT</code>, low-quality open posts that have a negative score and have been edited, <code>LQ_CLOSE</code>, low-quality closed posts that have not been edited</li>
 </ul>
 
 <h2><strong>Data Cleaning</strong></h2>
@@ -38,7 +38,18 @@
 <p>The cleaned columns were assigned to new columns labeled <code>Title_processed</code> and <code>Body_processed</code>, respectively. The <code>Tags</code> column was also converted from a string to a list of tags.</p>
 
 <h2><strong>Method</strong></h2>
+<p>Some of the models we have tried included Logistic Regression, Latent Dirichlet Allocation(LDA), and Partially Labeled Dirichlet Allocation(PLDA). We found Tomotopy's PLDA to be the model that fit our data the best. The PLDA model in Tomotopy is similar to a type of latent Dirichlet allocation model that can be used to infer the distribution of topics and the distribution of words in a corpus. Compared to the traditional LDA, PLDA can utilize documents with labels to guide the training of the model on the documents in the corpus.</p>
 
+<p>The model was trained and tested on the dataset as a whole as well as several subsections separately. The subsections of data include posts:</p>
+<ul>
+  <li>Extracted code into a separate column labeled <code>Code</code></li>
+  <li>That have no code</li>
+  <li>That have code</li>
+  <li>Labeled as high-quality (<code>HQ</code>)</li>
+  <li>Labeled as low-quality closed(<code>LQ_CLOSE</code>)</li>
+  <li>Labeled as low-quality edited(<code>LQ_EDIT</code>)</li>
+</ul>
+<p>On 10 epochs, the log-likelihood was computed as a measure of the model's effectiveness. We tested the model on 2,000 remaining data points that were not used in the training set and measured the accuracy of both the validation set and the training set.</p>
 <h2><strong>Results</strong></h2>
 <table border="1" class="dataframe">
   <thead>
@@ -76,8 +87,8 @@
     </tr>
     <tr>
       <td><strong>Low Quality Edited</strong></td>
-      <td>__</td>
-      <td>__</td>
+      <td>86.56%</td>
+      <td>44.90%</td>
     </tr>
   </tbody>
 </table>
