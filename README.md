@@ -10,9 +10,9 @@
 <h4><strong>Can we automatically determine which tag fits the post best given the text of the post?</strong></h4>
 
 <h2><strong>Exploratory Data Analysis</strong></h2>
-<iframe src="Number of Posts from December 2015 - March 2020.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="Count of the Most Common Tags.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="Bar Graph Visualizing the Distribution of the Most Common Tags per Month.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Number of Posts from December 2015 - March 2020.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Count of the Most Common Tags.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Bar Graph Visualizing the Distribution of the Most Common Tags per Month.html" width=800 height=600 frameBorder=0></iframe>
 
 <h2><strong>Dataset</strong></h2>
 <p>The dataset we are using contains 60,000 rows of Stack Overflow posts which include:</p>
