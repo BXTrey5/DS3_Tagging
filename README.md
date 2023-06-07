@@ -84,8 +84,8 @@
     </tr>
     <tr>
       <td><strong>Low Quality Closed</strong></td>
-      <td>87.94%</td>
-      <td>46.10%</td>
+      <td>89.83%</td>
+      <td>47.85%</td>
     </tr>
     <tr>
       <td><strong>Low Quality Edited</strong></td>
@@ -97,9 +97,19 @@
 
 <p>When looking at the subset accuracy of specific tags, we see that more common tags tend to have higher accuracies. For example, the most common tag in the testing set, python, has an accuracy of 0.71, while less common tags, such as R, have an accuracy of 0.51.</p>
 
+<iframe src="Overall Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Has Code Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Has No Code Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="High Quality Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Low Quality Closed Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Low Quality Edited Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
+
 <h2><strong>Findings</strong></h2>
 <p>We found that PLDA is a model that worked well for our dataset because we can make use of labels to guide the algorithm to find topics that fit each text the best. Despite this, the PLDA model might be prone to overfitting when dealing with tags that don’t commonly appear in the training set.</p>
 <h2><strong>Future Work</strong></h2>
+
+<h2><strong>Future Work</strong></h2>
+<p>In the future, we would like to utilize tools such as AWS or Apache Spark to be able to train our model on a more comprehensive data set. We also hope to limit the amount of overfitting in our model by implementing regularization methods such as dropout probabilities. Finally, finding a better way to tokenize any code that is found within the text is something that we plan to work on.</p>
 
 <h3>References</h3>
 <ul>
