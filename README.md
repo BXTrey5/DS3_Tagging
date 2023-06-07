@@ -106,7 +106,6 @@
 
 <h2><strong>Findings</strong></h2>
 <p>We found that PLDA is a model that worked well for our dataset because we can make use of labels to guide the algorithm to find topics that fit each text the best. Despite this, the PLDA model might be prone to overfitting when dealing with tags that don’t commonly appear in the training set.</p>
-<h2><strong>Future Work</strong></h2>
 
 <h2><strong>Future Work</strong></h2>
 <p>In the future, we would like to utilize tools such as AWS or Apache Spark to be able to train our model on a more comprehensive data set. We also hope to limit the amount of overfitting in our model by implementing regularization methods such as dropout probabilities. Finally, finding a better way to tokenize any code that is found within the text is something that we plan to work on.</p>
