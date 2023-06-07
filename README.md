@@ -10,9 +10,9 @@
 <h4><strong>Can we automatically determine which tag fits the post best given the text of the post?</strong></h4>
 
 <h2><strong>Exploratory Data Analysis</strong></h2>
-<iframe src="assets/Number of Posts from December 2015 - March 2020.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="assets/Count of the Most Common Tags.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="assets/Bar Graph Visualizing the Distribution of the Most Common Tags per Month.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Number of Posts from December 2015 - March 2020.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Count of the Most Common Tags.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Bar Graph Visualizing the Distribution of the Most Common Tags per Month.html" width=800 height=600 frameBorder=0></iframe>
 
 <h2><strong>Dataset</strong></h2>
 <p>The dataset we are using contains 60,000 rows of Stack Overflow posts which include:</p>
@@ -52,7 +52,7 @@
 <p>On 10 epochs, the log-likelihood was computed as a measure of the model's effectiveness. We tested the model on 2,000 remaining data points that were not used in the training set and measured the accuracy of both the validation set and the training set.</p>
 
 <h2><strong>Results</strong></h2>
-<p>When making predictions, we took the single tag with the highest probability associated with the post. When testing on a test set of 1500 data points, we achieved an accuracy of 0.45, compared to a 0.86 accuracy on a training set when the model was trained on the dataset as a whole. The following accuracies are obtained from training the model on subsections of the data:</p>
+<p>When making predictions, we took the single tag with the highest probability associated with the post. When testing on a test set of 2000 data points, we achieved an accuracy of 0.48, compared to a 0.83 accuracy on a training set when the model was trained on the dataset as a whole. The following accuracies are obtained from training the model on subsections of the data:</p>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: left;">
@@ -64,8 +64,8 @@
   <tbody>
     <tr>
       <td><strong>Overall</strong></td>
-      <td>__%</td>
-      <td>__%</td>
+      <td>83.55%</td>
+      <td>48.35%</td>
     </tr>
     <tr>
       <td><strong>No Code</strong></td>
@@ -94,6 +94,7 @@
     </tr>
   </tbody>
 </table>
+
 <p>When looking at the subset accuracy of specific tags, we see that more common tags tend to have higher accuracies. For example, the most common tag in the testing set, python, has an accuracy of 0.71, while less common tags, such as R, have an accuracy of 0.51.</p>
 
 <h2><strong>Findings</strong></h2>
