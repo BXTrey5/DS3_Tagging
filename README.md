@@ -95,7 +95,7 @@
   </tbody>
 </table>
 
-<p>When looking at the subset accuracy of specific tags, we see that more common tags tend to have higher accuracies. For example, the most common tag in the testing set, python, has an accuracy of 0.71, while less common tags, such as R, have an accuracy of 0.51.</p>
+<p>When looking at the subset accuracy of specific predicted tags, we see a high variance between different predicted tags. Some predicted tags, such as android, generally tend to have a higher accuracy when tested across the different subsections of the data. On the other hand, less common tags seemed to have a lower accuracy. This may be due to the tags not being represented enough in the Data Set to effectively classify these tags.</p>
 
 <iframe src="Overall Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
 <iframe src="Has Code Subset Accuracy.html" width=800 height=600 frameBorder=0></iframe>
